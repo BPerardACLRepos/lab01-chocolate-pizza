@@ -1,6 +1,6 @@
 import React from 'react';
 
-export class LeftHeader extends React.Component {
+export default class LeftHeader extends React.Component {
 render() {
 return ( 
 <div>
