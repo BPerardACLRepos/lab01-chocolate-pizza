@@ -1,6 +1,7 @@
 import React from 'react';
 import style from './Header-RightHeader.module.css';
 
+
 const imgButtons = [
     {
         image: 'fb-icon.png',
@@ -44,6 +45,7 @@ const iconList = imgButtons.map(icon => <div>
 export default class RightHeader extends React.Component {
     render() {
         return (
+
             <div className={style.right}>
                 {iconList}
             </div>
