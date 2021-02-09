@@ -44,7 +44,7 @@ export default class RightHeader extends React.Component {
     render() {
         return (
             <div>
-                { iconList}
+                {iconList}
             </div>
         );
     }
