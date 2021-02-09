@@ -1,0 +1,32 @@
+.bodyWidth {
+    width: 900px;
+    margin:auto;
+}
+
+.recipe {
+    text-indent: 30px;
+}
+
+.footerTop {
+    display: grid;
+    align-items: start;
+    grid-template-columns: 1fr 5fr 2fr;
+    margin: 35px 0 65px;
+    padding: 0;
+}
+
+.footerTopInner {
+    padding: 0;
+    margin: 0;
+}
+
+.footerBottom {
+    border-top: 1px solid grey;
+    text-align: center;
+}
+
+.footerImg {
+    position: relative;
+    top: -20px;
+    box-shadow: 0 0 5px 5px white;
+}

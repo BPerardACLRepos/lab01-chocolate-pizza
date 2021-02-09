@@ -1,4 +1,5 @@
 import React from 'react';
+import style from './Mock-Styles.module.css';
 
 const recipeSteps = [
     'For the fig-swirl: Melt butter over medium heat in a saucepan. Add brown sugar and stir to dissolve. Halve all of the figs and toss in the saucepan with water and lemon juice. ook over medium heat, stirring frequently, until you have a chunky-jammy mixture. Add salt with one or two stirs, set aside and let cool completely.',
@@ -14,7 +15,7 @@ const recipe = recipeSteps.map(step => <p>
 export default class Recipe extends React.Component {
     render() {
         return (
-            <div>
+            <div className={style.recipe}>
                 {recipe}
             </div>
         );
