@@ -5,7 +5,6 @@
     opacity: 0.5;
 }
 .pright {
-    float: right;
     text-align: right;
     opacity: 0.5;
 }
@@ -15,5 +14,6 @@
 }
 .print {
     float: left;
-
+    height: 50px;
+    width: 50px;
 }
