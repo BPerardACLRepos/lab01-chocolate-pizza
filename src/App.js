@@ -1,15 +1,17 @@
 import React from 'react';
 import Header from './App-Header.js';
 import ImageSection from './ImageSection.js';
+import Recipe from './Recipe.js';
 import './App.css';
 
 export default class Page extends React.Component {
-  render () {
-  return (
-    <div>
-      <Header/>
-      <ImageSection/>
-    </div>
-  );
-}
+  render() {
+    return (
+      <div>
+        <Header />
+        <ImageSection />
+        <Recipe />
+      </div>
+    );
+  }
 }
