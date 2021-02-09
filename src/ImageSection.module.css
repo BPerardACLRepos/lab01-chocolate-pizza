@@ -1,7 +1,11 @@
+.title {
+    font-weight: bold;
+}
 .pleft {
-    opacity: 0.8;
+    opacity: 0.5;
 }
 .pright {
+    float: right;
     text-align: right;
     opacity: 0.5;
 }
@@ -10,6 +14,6 @@
     margin: auto;
 }
 .print {
-    display: grid;
+    float: left;
 
 }
