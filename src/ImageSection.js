@@ -19,7 +19,7 @@ export default class ImageSection extends React.Component {
         return (
             <div>
                 <Title/>
-                <img src = 'choco-pizza.png'/>
+                <img className = {style.pizza}src = 'choco-pizza.png'/>
             </div>
         )
 }
