@@ -2,4 +2,7 @@
     text-align: right;
     opacity: 0.8;
 }
-
+.pizza {
+    display: grid;
+    margin: auto;
+}
