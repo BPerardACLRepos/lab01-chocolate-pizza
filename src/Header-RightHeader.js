@@ -15,7 +15,7 @@ const imgButtons = [
         alt: 'gp img'
     },
     {
-        image: 'insta.icon.png',
+        image: 'insta-icon.png',
         alt: 'insta img'
     },
     {
