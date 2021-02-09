@@ -1,0 +1,12 @@
+.title {
+    font-family: cursive;
+    font-weight: bolder;
+    font-size: large;
+}
+.sub {
+    opacity: 0.75;
+}
+
+.logo {
+    float: left;
+}
