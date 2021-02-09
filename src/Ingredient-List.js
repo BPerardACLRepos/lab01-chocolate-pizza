@@ -1,4 +1,5 @@
 import React from 'react';
+import style from './Mock-Styles.module.css';
 
 
 const ingredients = [
@@ -61,9 +62,9 @@ const ingredientList = ingredients.map(ingredient => <label for={ingredient.name
 export default class IngredientList extends React.Component {
     render() {
         return (
-            <div>
-                {ingredientList}
-            </div>
+            <div className={style.ingredientList} style={{ backgroundImage: `url(${'list-bg.png'})` }}>
+                { ingredientList}
+            </div >
         );
     }
 }
