@@ -1,3 +1,6 @@
+.pleft {
+    opacity: 0.8;
+}
 .pright {
     text-align: right;
     opacity: 0.8;
@@ -5,4 +8,8 @@
 .pizza {
     display: grid;
     margin: auto;
+}
+.print {
+    display: grid;
+
 }
