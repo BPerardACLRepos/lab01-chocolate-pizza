@@ -3,6 +3,17 @@
     margin:auto;
 }
 
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.headerRight {
+    display: flex;
+    flex-direction: row;
+}
+
 .recipe {
     text-indent: 30px;
 }
