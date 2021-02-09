@@ -1,5 +1,6 @@
 import React from 'react';
-import style from './Mock-Styles.module.css';
+import style from './Header-RightHeader.module.css';
+
 
 const imgButtons = [
     {
@@ -44,7 +45,8 @@ const iconList = imgButtons.map(icon => <div>
 export default class RightHeader extends React.Component {
     render() {
         return (
-            <div className={style.headerRight}>
+
+            <div className={style.right}>
                 {iconList}
             </div>
         );
