@@ -6,9 +6,7 @@ class Title extends React.Component {
         return (
             <div>   
                 <h1>Chocolate Pizza</h1>
-                <p>POSTED ON 15 DEC 2013 / DESSERTS</p>
-                <img src = 'print-icon.png'/>
-                <p>PRINT</p>
+                <p className = 'pleft'>POSTED ON 15 DEC 2013 / DESSERTS</p><img className = 'print' src = 'print-icon.png'/><p className = 'pright'>PRINT</p> 
             </div>
         )
     }
